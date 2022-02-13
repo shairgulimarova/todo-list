@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.wrapper-inner{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;    
+    border: solid 1px rgb(180, 176, 176);
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px 0 50px;
+    
+}
+
+h2{
+    text-align: center;    
+    margin-bottom: 20px;
+}
+
+input{
+    width: 350px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.add{
+    width: 380px;
+    padding: 12px;
+}
+
+.todo-list{
+    margin: 0 auto;
+    align-items: center;
+}
